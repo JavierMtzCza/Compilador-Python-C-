@@ -1,0 +1,23 @@
+package demo.compiler;
+
+public enum TipoDeToken {
+    OPERACION,
+    IDENTIFICADOR,
+    // PUNTUADO
+    DOS_PUNTOS,
+    COMA,
+    PUNTUADO,
+    //Delimitadores
+    PARENTESIS_ABRE,
+    PARENTESIS_CIERRA,
+    DELIMITADOR,
+    ERROR_IDENTIFICADOR,
+    RESERVADA,
+    LITERAL,
+    ERROR_LITERAL,
+    INVALIDO,
+    CARACTER_INVALIDO,
+    INDENT,
+    DEDENT,
+    BAD_ERROR
+}
