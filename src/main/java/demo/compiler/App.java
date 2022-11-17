@@ -17,6 +17,7 @@ public class App implements Callable<Integer>{
         System.exit(exitCode);
     }
 
+    // Para ejecutar el codigo se utiliza -mvn -
     @Override
     public Integer call() throws Exception {
         if(file != null){
